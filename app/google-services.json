@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "343220760764",
+    "firebase_url": "https://leaderboard-bcea3.firebaseio.com",
+    "project_id": "leaderboard-bcea3",
+    "storage_bucket": "leaderboard-bcea3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:343220760764:android:06bb83078a7aa1fe",
+        "android_client_info": {
+          "package_name": "com.example.rmkengineeringcollege.leaderboard"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "343220760764-cabmms3l9unbfarhgbt3vh0f530qsajf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.rmkengineeringcollege.leaderboard",
+            "certificate_hash": "d2805769b99e46dd809f47b6fac2f7f149a76b84"
+          }
+        },
+        {
+          "client_id": "343220760764-olt9u5k863vknv67u6ha0n53kfmeq8hr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBUGl5w3sEyvHFr7IpxTZE3xxw1VWAro-A"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "343220760764-olt9u5k863vknv67u6ha0n53kfmeq8hr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
