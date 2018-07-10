@@ -29,7 +29,9 @@ public class MainActivity extends AppCompatActivity {
     EditText editText;
     ImageButton imageButton;
     userlist adapter;
-
+    String x;
+List<Users> toRemove = new ArrayList<Users>();
+    
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -43,8 +45,20 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 String stext = editText.getText().toString().toUpperCase();
-                adapter.getFilter().filter(stext);
-                listviewUsers.setAdapter(adapter);
+                if(stext.equalsIgnoreCase(""))
+                {
+                    onStart();
+                }
+                for(Users u:ulist)
+                {
+                    x=u.branch;
+                    if(stext.equalsIgnoreCase(x)==false)
+                    {
+                        toRemove.add(u);
+                    }
+                }
+                ulist.removeAll(toRemove);
+                adapter.notifyDataSetChanged();
             }
         });
 
